@@ -1,0 +1,38 @@
+.divForm {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--tirColor);
+}
+.btn {
+  width:80px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  border:none;
+  background-color: var(--tirColor);
+  color:var(--fouColor);
+  transition: all .2s ease;
+}
+.btn:hover{
+  transform: scale(0.9);
+  border-radius: 15px;
+}
+.section{
+  margin-top: 10px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:450px) {
+  .btn {
+    width:60px;
+    height: 25px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}

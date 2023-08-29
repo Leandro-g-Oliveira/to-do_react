@@ -1,0 +1,75 @@
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding:10px;
+  background-color: var(--tirColor);
+  width:80%;
+  height:50px;
+  transition: all .2s ease;
+}
+.article:hover{
+  transform:scale(1.1);
+  letter-spacing: 2px;
+  box-shadow: 0 0 25px var(--tirColor);
+}
+.final {
+  font-style: italic;
+  text-decoration: line-through;
+  color:var(--firColor);
+}
+.article p{
+  font-size: 40px;
+  font-weight: bold;
+}
+.divLinks{
+  align-items: center;
+}
+.divLinks>a{
+  margin-left:10px;
+  text-decoration: none;
+  color:var(--fouColor);
+  font-size: 30px;
+  font-weight: bold;
+  padding:5px;
+  border-radius:10px;
+  transition: all .3s ease;
+}
+.divLinks>a:hover,.divLinks>button:hover{
+  background-color: var(--fouColor);
+  color: var(--tirColor);
+}
+.divLinks>button{
+  font-size: 30px;
+  background-color: var(--tirColor);
+  color:var(--fouColor);
+  margin-left: 10px;
+  border:none;
+  border-radius: 10px;
+  font-weight: bold;
+  padding:5px;
+}
+@media (max-width:450px) {
+  .article {
+    height:40px;
+  }
+  .article:hover{
+    transform:scale(1.05);
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px var(--tirColor);
+  }
+  .article p {
+    font-size:20px;
+  }
+  .divLinks>a {
+    margin-left:5px;
+    font-size: 15px;
+    padding:5px;
+  }
+  .divLinks>button{
+    font-size: 15px;
+    margin-left: 10px;
+    padding:5px;
+  }
+}

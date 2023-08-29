@@ -1,0 +1,32 @@
+.container {
+  width:1200px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding:5px;
+  align-items: center;
+  background-color: var(--secColor);
+}
+.minHeight{
+  min-height:75%;
+}
+.start{
+  justify-content: flex-start;
+}
+.center{
+  justify-content: center;
+}
+.column{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom{
+  align-items: bottom;
+}
+@media (max-width:450px) {
+  .container {
+    width: 450px;
+  }
+}

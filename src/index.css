@@ -1,0 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --firColor:#525B56;
+  --secColor:#1B3239;
+  --tirColor:#DCA36E;
+  --fouColor:#0c262c;
+}
